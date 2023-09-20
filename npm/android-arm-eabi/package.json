@@ -1,0 +1,22 @@
+{
+	"name": "canary-probe-android-arm-eabi",
+	"version": "0.0.1",
+	"os": [
+		"android"
+	],
+	"cpu": [
+		"arm"
+	],
+	"main": "canary-probe.android-arm-eabi.node",
+	"files": [
+		"canary-probe.android-arm-eabi.node"
+	],
+	"license": "AGPL-3.0",
+	"engines": {
+		"node": ">= 10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/canary-probe-napi"
+	}
+}

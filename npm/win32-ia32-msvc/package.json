@@ -1,0 +1,22 @@
+{
+	"name": "canary-probe-win32-ia32-msvc",
+	"version": "0.0.1",
+	"os": [
+		"win32"
+	],
+	"cpu": [
+		"ia32"
+	],
+	"main": "canary-probe.win32-ia32-msvc.node",
+	"files": [
+		"canary-probe.win32-ia32-msvc.node"
+	],
+	"license": "AGPL-3.0",
+	"engines": {
+		"node": ">= 10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/canary-probe-napi"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name": "canary-probe-freebsd-x64",
+	"version": "0.0.1",
+	"os": [
+		"freebsd"
+	],
+	"cpu": [
+		"x64"
+	],
+	"main": "canary-probe.freebsd-x64.node",
+	"files": [
+		"canary-probe.freebsd-x64.node"
+	],
+	"license": "AGPL-3.0",
+	"engines": {
+		"node": ">= 10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/canary-probe-napi"
+	}
+}

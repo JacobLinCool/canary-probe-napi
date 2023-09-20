@@ -1,0 +1,19 @@
+{
+	"name": "canary-probe-darwin-universal",
+	"version": "0.0.1",
+	"os": [
+		"darwin"
+	],
+	"main": "canary-probe.darwin-universal.node",
+	"files": [
+		"canary-probe.darwin-universal.node"
+	],
+	"license": "AGPL-3.0",
+	"engines": {
+		"node": ">= 10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/canary-probe-napi"
+	}
+}

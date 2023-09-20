@@ -1,0 +1,25 @@
+{
+	"name": "canary-probe-linux-x64-gnu",
+	"version": "0.0.1",
+	"os": [
+		"linux"
+	],
+	"cpu": [
+		"x64"
+	],
+	"main": "canary-probe.linux-x64-gnu.node",
+	"files": [
+		"canary-probe.linux-x64-gnu.node"
+	],
+	"license": "AGPL-3.0",
+	"engines": {
+		"node": ">= 10"
+	},
+	"libc": [
+		"glibc"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/canary-probe-napi"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name": "canary-probe-darwin-arm64",
+	"version": "0.0.1",
+	"os": [
+		"darwin"
+	],
+	"cpu": [
+		"arm64"
+	],
+	"main": "canary-probe.darwin-arm64.node",
+	"files": [
+		"canary-probe.darwin-arm64.node"
+	],
+	"license": "AGPL-3.0",
+	"engines": {
+		"node": ">= 10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/canary-probe-napi"
+	}
+}
