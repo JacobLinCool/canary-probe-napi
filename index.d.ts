@@ -12,6 +12,8 @@ export interface JsCheckConfig {
   memoryLimit?: number
   cpuLimit?: number
   diskLimit?: string
+  extract?: string
+  debug?: boolean
 }
 export interface JsCheckResult {
   executables: Array<string>

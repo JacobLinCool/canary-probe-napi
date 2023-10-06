@@ -15,6 +15,8 @@ pub struct JsCheckConfig {
     pub memory_limit: Option<i64>,
     pub cpu_limit: Option<i64>,
     pub disk_limit: Option<String>,
+    pub extract: Option<String>,
+    pub debug: Option<bool>,
 }
 
 #[napi(object)]
@@ -53,6 +55,12 @@ pub async fn check(zip_path: String, option: Option<JsCheckConfig>) -> Result<Js
         }
         if let Some(disk_limit) = option.disk_limit {
             config.disk_limit = disk_limit;
+        }
+        if let Some(extract) = option.extract {
+            config.extract = Some(extract);
+        }
+        if let Some(debug) = option.debug {
+            config.debug = debug;
         }
     }
 
